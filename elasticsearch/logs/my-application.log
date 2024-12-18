@@ -1,0 +1,187 @@
+[2024-12-18T09:59:14,773][WARN ][o.e.b.JNANatives         ] [node-1] Unable to lock JVM Memory: error=78, reason=Function not implemented
+[2024-12-18T09:59:14,777][WARN ][o.e.b.JNANatives         ] [node-1] This can result in part of the JVM being swapped out.
+[2024-12-18T09:59:15,018][INFO ][o.e.n.Node               ] [node-1] version[8.4.2], pid[81257], build[tar/89f8c6d8429db93b816403ee75e5c270b43a940a/2022-09-14T16:26:04.382547801Z], OS[Mac OS X/15.1.1/aarch64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/18.0.2.1/18.0.2.1+1-1]
+[2024-12-18T09:59:15,019][INFO ][o.e.n.Node               ] [node-1] JVM home [/Users/minhyuk/Downloads/elasticsearch-8.4.2/jdk.app/Contents/Home], using bundled JDK [true]
+[2024-12-18T09:59:15,019][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -Djava.security.manager=allow, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j2.formatMsgNoLookups=true, -Djava.locale.providers=SPI,COMPAT, --add-opens=java.base/java.io=ALL-UNNAMED, -Xms4g, -Xmx4g, -XX:+UseG1GC, -Djava.io.tmpdir=/var/folders/sc/g31h4x0x4tg1ndt0f3_ld66m0000gn/T/elasticsearch-16744514729050013685, -XX:+HeapDumpOnOutOfMemoryError, -XX:+ExitOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -XX:MaxDirectMemorySize=2147483648, -XX:G1HeapRegionSize=4m, -XX:InitiatingHeapOccupancyPercent=30, -XX:G1ReservePercent=15, -Des.distribution.type=tar, --module-path=/Users/minhyuk/Downloads/elasticsearch-8.4.2/lib, --add-modules=jdk.net, -Djdk.module.main=org.elasticsearch.server]
+[2024-12-18T09:59:15,781][INFO ][c.a.c.i.j.JacksonVersion ] [node-1] Package versions: jackson-annotations=2.13.2, jackson-core=2.13.2, jackson-databind=2.13.2.2, jackson-dataformat-xml=2.13.2, jackson-datatype-jsr310=2.13.2, azure-core=1.27.0, Troubleshooting version conflicts: https://aka.ms/azsdk/java/dependency/troubleshoot
+[2024-12-18T09:59:16,354][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
+[2024-12-18T09:59:16,354][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [analysis-common]
+[2024-12-18T09:59:16,354][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [constant-keyword]
+[2024-12-18T09:59:16,354][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [data-streams]
+[2024-12-18T09:59:16,354][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [frozen-indices]
+[2024-12-18T09:59:16,354][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-attachment]
+[2024-12-18T09:59:16,355][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-common]
+[2024-12-18T09:59:16,355][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-geoip]
+[2024-12-18T09:59:16,355][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-user-agent]
+[2024-12-18T09:59:16,355][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [kibana]
+[2024-12-18T09:59:16,355][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-expression]
+[2024-12-18T09:59:16,355][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-mustache]
+[2024-12-18T09:59:16,355][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-painless]
+[2024-12-18T09:59:16,355][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [legacy-geo]
+[2024-12-18T09:59:16,355][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [mapper-extras]
+[2024-12-18T09:59:16,356][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [mapper-version]
+[2024-12-18T09:59:16,356][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [old-lucene-versions]
+[2024-12-18T09:59:16,356][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [parent-join]
+[2024-12-18T09:59:16,356][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [percolator]
+[2024-12-18T09:59:16,356][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [rank-eval]
+[2024-12-18T09:59:16,356][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [reindex]
+[2024-12-18T09:59:16,356][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [repositories-metering-api]
+[2024-12-18T09:59:16,356][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [repository-azure]
+[2024-12-18T09:59:16,356][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [repository-encrypted]
+[2024-12-18T09:59:16,356][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [repository-gcs]
+[2024-12-18T09:59:16,356][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [repository-s3]
+[2024-12-18T09:59:16,356][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [repository-url]
+[2024-12-18T09:59:16,356][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [runtime-fields-common]
+[2024-12-18T09:59:16,357][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [search-business-rules]
+[2024-12-18T09:59:16,357][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [searchable-snapshots]
+[2024-12-18T09:59:16,357][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [snapshot-based-recoveries]
+[2024-12-18T09:59:16,357][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [snapshot-repo-test-kit]
+[2024-12-18T09:59:16,357][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [spatial]
+[2024-12-18T09:59:16,357][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transform]
+[2024-12-18T09:59:16,357][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty4]
+[2024-12-18T09:59:16,357][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [unsigned-long]
+[2024-12-18T09:59:16,357][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [vector-tile]
+[2024-12-18T09:59:16,357][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [wildcard]
+[2024-12-18T09:59:16,357][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-aggregate-metric]
+[2024-12-18T09:59:16,357][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-analytics]
+[2024-12-18T09:59:16,357][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-async]
+[2024-12-18T09:59:16,357][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-async-search]
+[2024-12-18T09:59:16,357][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-autoscaling]
+[2024-12-18T09:59:16,358][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-ccr]
+[2024-12-18T09:59:16,358][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-core]
+[2024-12-18T09:59:16,358][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-deprecation]
+[2024-12-18T09:59:16,358][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-enrich]
+[2024-12-18T09:59:16,358][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-eql]
+[2024-12-18T09:59:16,358][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-fleet]
+[2024-12-18T09:59:16,358][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-graph]
+[2024-12-18T09:59:16,358][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-identity-provider]
+[2024-12-18T09:59:16,358][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-ilm]
+[2024-12-18T09:59:16,358][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-logstash]
+[2024-12-18T09:59:16,358][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-ml]
+[2024-12-18T09:59:16,358][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-monitoring]
+[2024-12-18T09:59:16,359][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-ql]
+[2024-12-18T09:59:16,359][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-rollup]
+[2024-12-18T09:59:16,359][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-security]
+[2024-12-18T09:59:16,359][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-shutdown]
+[2024-12-18T09:59:16,359][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-sql]
+[2024-12-18T09:59:16,359][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-stack]
+[2024-12-18T09:59:16,359][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-text-structure]
+[2024-12-18T09:59:16,359][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-voting-only-node]
+[2024-12-18T09:59:16,359][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-watcher]
+[2024-12-18T09:59:16,359][INFO ][o.e.p.PluginsService     ] [node-1] no plugins loaded
+[2024-12-18T09:59:17,512][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk3s1)]], net usable_space [102.8gb], net total_space [460.4gb], types [apfs]
+[2024-12-18T09:59:17,513][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [4gb], compressed ordinary object pointers [true]
+[2024-12-18T09:59:17,520][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [ZkbmSpGcSKWV_Y3rOKMDig], cluster name [my-application], roles [ml, data_frozen, ingest, data_cold, data, remote_cluster_client, master, data_warm, data_content, transform, data_hot]
+[2024-12-18T09:59:18,794][INFO ][o.e.x.s.Security         ] [node-1] Security is enabled
+[2024-12-18T09:59:19,064][INFO ][o.e.x.s.a.s.FileRolesStore] [node-1] parsed [0] roles from file [/Users/minhyuk/Downloads/elasticsearch-8.4.2/config/roles.yml]
+[2024-12-18T09:59:19,297][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [node-1] [controller/81271] [Main.cc@123] controller (64 bit): Version 8.4.2 (Build 158cee2efc2db4) Copyright (c) 2022 Elasticsearch BV
+[2024-12-18T09:59:19,553][INFO ][o.e.t.n.NettyAllocator   ] [node-1] creating NettyAllocator with the following configs: [name=elasticsearch_configured, chunk_size=1mb, suggested_max_allocation_size=1mb, factors={es.unsafe.use_netty_default_chunk_and_page_size=false, g1gc_enabled=true, g1gc_region_size=4mb}]
+[2024-12-18T09:59:19,565][INFO ][o.e.i.r.RecoverySettings ] [node-1] using rate limit [40mb] with [default=40mb, read=0b, write=0b, max=0b]
+[2024-12-18T09:59:19,581][INFO ][o.e.d.DiscoveryModule    ] [node-1] using discovery type [single-node] and seed hosts providers [settings]
+[2024-12-18T09:59:20,090][INFO ][o.e.n.Node               ] [node-1] initialized
+[2024-12-18T09:59:20,090][INFO ][o.e.n.Node               ] [node-1] starting ...
+[2024-12-18T09:59:20,108][INFO ][o.e.x.s.c.f.PersistentCache] [node-1] persistent cache index loaded
+[2024-12-18T09:59:20,109][INFO ][o.e.x.d.l.DeprecationIndexingComponent] [node-1] deprecation component started
+[2024-12-18T09:59:20,163][INFO ][o.e.t.TransportService   ] [node-1] publish_address {172.21.66.36:9300}, bound_addresses {[::]:9300}
+[2024-12-18T09:59:20,236][WARN ][o.e.b.BootstrapChecks    ] [node-1] memory locking requested for elasticsearch process but memory is not locked
+[2024-12-18T09:59:20,236][INFO ][o.e.c.c.ClusterBootstrapService] [node-1] this node has not joined a bootstrapped cluster yet; [cluster.initial_master_nodes] is set to [node-1]
+[2024-12-18T09:59:20,239][INFO ][o.e.c.c.Coordinator      ] [node-1] setting initial configuration to VotingConfiguration{ZkbmSpGcSKWV_Y3rOKMDig}
+[2024-12-18T09:59:20,379][INFO ][o.e.c.s.MasterService    ] [node-1] elected-as-master ([1] nodes joined)[_FINISH_ELECTION_, {node-1}{ZkbmSpGcSKWV_Y3rOKMDig}{vzOUTdKIRtuIUp06QdfWhQ}{node-1}{172.21.66.36}{172.21.66.36:9300}{cdfhilmrstw} completing election], term: 1, version: 1, delta: master node changed {previous [], current [{node-1}{ZkbmSpGcSKWV_Y3rOKMDig}{vzOUTdKIRtuIUp06QdfWhQ}{node-1}{172.21.66.36}{172.21.66.36:9300}{cdfhilmrstw}]}
+[2024-12-18T09:59:20,412][INFO ][o.e.c.c.CoordinationState] [node-1] cluster UUID set to [faAIyp0JShKOxHvo-X235Q]
+[2024-12-18T09:59:20,446][INFO ][o.e.c.s.ClusterApplierService] [node-1] master node changed {previous [], current [{node-1}{ZkbmSpGcSKWV_Y3rOKMDig}{vzOUTdKIRtuIUp06QdfWhQ}{node-1}{172.21.66.36}{172.21.66.36:9300}{cdfhilmrstw}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2024-12-18T09:59:20,473][INFO ][o.e.r.s.FileSettingsService] [node-1] starting file settings watcher ...
+[2024-12-18T09:59:20,475][INFO ][o.e.r.s.FileSettingsService] [node-1] file settings service up and running [tid=40]
+[2024-12-18T09:59:20,477][INFO ][o.e.h.AbstractHttpServerTransport] [node-1] publish_address {172.21.66.36:9200}, bound_addresses {[::]:9200}
+[2024-12-18T09:59:20,478][INFO ][o.e.n.Node               ] [node-1] started {node-1}{ZkbmSpGcSKWV_Y3rOKMDig}{vzOUTdKIRtuIUp06QdfWhQ}{node-1}{172.21.66.36}{172.21.66.36:9300}{cdfhilmrstw}{xpack.installed=true, ml.allocated_processors=8, ml.max_jvm_size=4294967296, ml.machine_memory=17179869184}
+[2024-12-18T09:59:20,524][INFO ][o.e.g.GatewayService     ] [node-1] recovered [0] indices into cluster_state
+[2024-12-18T09:59:20,593][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.slm-history] for index patterns [.slm-history-5*]
+[2024-12-18T09:59:20,605][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.watch-history-16] for index patterns [.watcher-history-16*]
+[2024-12-18T09:59:20,608][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [ilm-history] for index patterns [ilm-history-5*]
+[2024-12-18T09:59:20,610][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding component template [.deprecation-indexing-settings]
+[2024-12-18T09:59:20,615][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding component template [.deprecation-indexing-mappings]
+[2024-12-18T09:59:20,617][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding component template [synthetics-mappings]
+[2024-12-18T09:59:20,618][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding component template [metrics-mappings]
+[2024-12-18T09:59:20,620][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding component template [logs-mappings]
+[2024-12-18T09:59:20,621][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding component template [synthetics-settings]
+[2024-12-18T09:59:20,622][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding component template [metrics-settings]
+[2024-12-18T09:59:20,623][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding component template [logs-settings]
+[2024-12-18T09:59:20,631][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.monitoring-ent-search-mb] for index patterns [.monitoring-ent-search-8-*]
+[2024-12-18T09:59:20,640][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.monitoring-kibana-mb] for index patterns [.monitoring-kibana-8-*]
+[2024-12-18T09:59:20,646][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.monitoring-logstash-mb] for index patterns [.monitoring-logstash-8-*]
+[2024-12-18T09:59:20,658][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.monitoring-beats-mb] for index patterns [.monitoring-beats-8-*]
+[2024-12-18T09:59:20,671][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.monitoring-es-mb] for index patterns [.monitoring-es-8-*]
+[2024-12-18T09:59:20,674][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.monitoring-kibana] for index patterns [.monitoring-kibana-7-*]
+[2024-12-18T09:59:20,677][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.monitoring-alerts-7] for index patterns [.monitoring-alerts-7]
+[2024-12-18T09:59:20,680][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.monitoring-logstash] for index patterns [.monitoring-logstash-7-*]
+[2024-12-18T09:59:20,683][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.ml-notifications-000002] for index patterns [.ml-notifications-000002]
+[2024-12-18T09:59:20,685][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.ml-stats] for index patterns [.ml-stats-*]
+[2024-12-18T09:59:20,693][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.ml-anomalies-] for index patterns [.ml-anomalies-*]
+[2024-12-18T09:59:20,695][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.ml-state] for index patterns [.ml-state*]
+[2024-12-18T09:59:20,698][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.monitoring-beats] for index patterns [.monitoring-beats-7-*]
+[2024-12-18T09:59:20,702][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.monitoring-es] for index patterns [.monitoring-es-7-*]
+[2024-12-18T09:59:20,705][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding component template [data-streams-mappings]
+[2024-12-18T09:59:20,753][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.deprecation-indexing-template] for index patterns [.logs-deprecation.*]
+[2024-12-18T09:59:20,756][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [synthetics] for index patterns [synthetics-*-*]
+[2024-12-18T09:59:20,758][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [logs] for index patterns [logs-*-*]
+[2024-12-18T09:59:20,760][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [metrics] for index patterns [metrics-*-*]
+[2024-12-18T09:59:20,809][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [logs]
+[2024-12-18T09:59:20,836][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [watch-history-ilm-policy-16]
+[2024-12-18T09:59:20,858][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [metrics]
+[2024-12-18T09:59:20,891][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [ilm-history-ilm-policy]
+[2024-12-18T09:59:20,912][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [synthetics]
+[2024-12-18T09:59:20,935][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [.deprecation-indexing-ilm-policy]
+[2024-12-18T09:59:20,955][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [180-days-default]
+[2024-12-18T09:59:20,980][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [90-days-default]
+[2024-12-18T09:59:21,000][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [slm-history-ilm-policy]
+[2024-12-18T09:59:21,018][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [30-days-default]
+[2024-12-18T09:59:21,038][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [ml-size-based-ilm-policy]
+[2024-12-18T09:59:21,065][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [7-days-default]
+[2024-12-18T09:59:21,091][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [.monitoring-8-ilm-policy]
+[2024-12-18T09:59:21,120][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [365-days-default]
+[2024-12-18T09:59:21,148][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [.fleet-actions-results-ilm-policy]
+[2024-12-18T09:59:21,224][INFO ][o.e.l.LicenseService     ] [node-1] license [7676b8b2-2469-4e76-a3aa-317e3686fd9f] mode [basic] - valid
+[2024-12-18T09:59:21,224][INFO ][o.e.x.s.a.Realms         ] [node-1] license mode is [basic], currently licensed security realms are [reserved/reserved,file/default_file,native/default_native]
+[2024-12-18T09:59:22,552][INFO ][o.e.c.m.MetadataCreateIndexService] [node-1] [.geoip_databases] creating index, cause [auto(bulk api)], templates [], shards [1]/[0]
+[2024-12-18T09:59:22,738][INFO ][o.e.c.r.a.AllocationService] [node-1] current.health="GREEN" message="Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.geoip_databases][0]]])." previous.health="YELLOW" reason="shards started [[.geoip_databases][0]]"
+[2024-12-18T09:59:23,178][INFO ][o.e.i.g.GeoIpDownloader  ] [node-1] successfully downloaded geoip database [GeoLite2-ASN.mmdb]
+[2024-12-18T09:59:23,262][INFO ][o.e.i.g.DatabaseNodeService] [node-1] successfully loaded geoip database file [GeoLite2-ASN.mmdb]
+[2024-12-18T09:59:26,702][INFO ][o.e.i.g.GeoIpDownloader  ] [node-1] successfully downloaded geoip database [GeoLite2-City.mmdb]
+[2024-12-18T09:59:27,032][INFO ][o.e.i.g.DatabaseNodeService] [node-1] successfully loaded geoip database file [GeoLite2-City.mmdb]
+[2024-12-18T09:59:28,110][INFO ][o.e.i.g.GeoIpDownloader  ] [node-1] successfully downloaded geoip database [GeoLite2-Country.mmdb]
+[2024-12-18T09:59:28,164][INFO ][o.e.i.g.DatabaseNodeService] [node-1] successfully loaded geoip database file [GeoLite2-Country.mmdb]
+[2024-12-18T09:59:29,589][INFO ][o.e.x.s.InitialNodeSecurityAutoConfiguration] [node-1] HTTPS has been configured with automatically generated certificates, and the CA's hex-encoded SHA-256 fingerprint is [a4694895907a633b7b1f0bae2d290afea2f47b6a38db68e7b9a42b80e1e82946]
+[2024-12-18T09:59:29,590][INFO ][o.e.x.s.s.SecurityIndexManager] [node-1] security index does not exist, creating [.security-7] with alias [.security]
+[2024-12-18T09:59:29,616][INFO ][o.e.c.m.MetadataCreateIndexService] [node-1] [.security-7] creating index, cause [api], templates [], shards [1]/[0]
+[2024-12-18T09:59:29,661][INFO ][o.e.x.s.s.SecurityIndexManager] [node-1] security index does not exist, creating [.security-7] with alias [.security]
+[2024-12-18T09:59:29,661][INFO ][o.e.x.s.s.SecurityIndexManager] [node-1] security index does not exist, creating [.security-7] with alias [.security]
+[2024-12-18T09:59:29,726][INFO ][o.e.c.r.a.AllocationService] [node-1] current.health="GREEN" message="Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.security-7][0]]])." previous.health="YELLOW" reason="shards started [[.security-7][0]]"
+[2024-12-18T09:59:53,054][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [node-1] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/[0:0:0:0:0:0:0:1]:9200, remoteAddress=/[0:0:0:0:0:0:0:1]:56633}
+[2024-12-18T09:59:54,082][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [node-1] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/[0:0:0:0:0:0:0:1]:9200, remoteAddress=/[0:0:0:0:0:0:0:1]:56635}
+[2024-12-18T09:59:54,076][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [node-1] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/[0:0:0:0:0:0:0:1]:9200, remoteAddress=/[0:0:0:0:0:0:0:1]:56634}
+[2024-12-18T09:59:54,089][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [node-1] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/[0:0:0:0:0:0:0:1]:9200, remoteAddress=/[0:0:0:0:0:0:0:1]:56636}
+[2024-12-18T09:59:59,111][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [node-1] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/[0:0:0:0:0:0:0:1]:9200, remoteAddress=/[0:0:0:0:0:0:0:1]:56637}
+[2024-12-18T09:59:59,750][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [node-1] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/[0:0:0:0:0:0:0:1]:9200, remoteAddress=/[0:0:0:0:0:0:0:1]:56638}
+[2024-12-18T09:59:59,757][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [node-1] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/[0:0:0:0:0:0:0:1]:9200, remoteAddress=/[0:0:0:0:0:0:0:1]:56639}
+[2024-12-18T09:59:59,759][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [node-1] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/[0:0:0:0:0:0:0:1]:9200, remoteAddress=/[0:0:0:0:0:0:0:1]:56640}
+[2024-12-18T10:00:29,775][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [node-1] received plaintext http traffic on an https channel, closing connection Netty4HttpChannel{localAddress=/[0:0:0:0:0:0:0:1]:9200, remoteAddress=/[0:0:0:0:0:0:0:1]:56642}
+[2024-12-18T10:00:30,922][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [node-1] http client did not trust this server's certificate, closing connection Netty4HttpChannel{localAddress=/[0:0:0:0:0:0:0:1]:9200, remoteAddress=/[0:0:0:0:0:0:0:1]:56645}
+[2024-12-18T10:00:30,922][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [node-1] http client did not trust this server's certificate, closing connection Netty4HttpChannel{localAddress=/[0:0:0:0:0:0:0:1]:9200, remoteAddress=/[0:0:0:0:0:0:0:1]:56644}
+[2024-12-18T10:00:34,262][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [node-1] http client did not trust this server's certificate, closing connection Netty4HttpChannel{localAddress=/[0:0:0:0:0:0:0:1]:9200, remoteAddress=/[0:0:0:0:0:0:0:1]:56648}
+[2024-12-18T10:00:34,262][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [node-1] http client did not trust this server's certificate, closing connection Netty4HttpChannel{localAddress=/[0:0:0:0:0:0:0:1]:9200, remoteAddress=/[0:0:0:0:0:0:0:1]:56647}
+[2024-12-18T10:01:53,407][WARN ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [node-1] http client did not trust this server's certificate, closing connection Netty4HttpChannel{localAddress=/[0:0:0:0:0:0:0:1]:9200, remoteAddress=/[0:0:0:0:0:0:0:1]:56655}
+[2024-12-18T11:36:32,004][INFO ][o.e.x.m.p.NativeController] [node-1] Native controller process has stopped - no new native processes can be started
+[2024-12-18T11:36:32,005][WARN ][o.e.t.ThreadPool         ] [node-1] timer thread slept for [1.3h/4898217ms] on absolute clock which is above the warn threshold of [5000ms]
+[2024-12-18T11:36:32,009][WARN ][o.e.t.ThreadPool         ] [node-1] timer thread slept for [1.3h/4898259324500ns] on relative clock which is above the warn threshold of [5000ms]
+[2024-12-18T11:36:32,011][INFO ][o.e.n.Node               ] [node-1] stopping ...
+[2024-12-18T11:36:32,016][INFO ][o.e.r.s.FileSettingsService] [node-1] shutting down watcher thread
+[2024-12-18T11:36:32,016][INFO ][o.e.r.s.FileSettingsService] [node-1] watcher service stopped
+[2024-12-18T11:36:32,020][INFO ][o.e.x.s.SnapshotRetentionTask] [node-1] starting SLM retention snapshot cleanup task
+[2024-12-18T11:36:32,022][INFO ][o.e.x.w.WatcherService   ] [node-1] stopping watch service, reason [shutdown initiated]
+[2024-12-18T11:36:32,071][INFO ][o.e.x.s.SnapshotRetentionTask] [node-1] there are no repositories to fetch, SLM retention snapshot cleanup task complete
+[2024-12-18T11:36:32,072][INFO ][o.e.x.w.WatcherLifeCycleService] [node-1] watcher has stopped and shutdown
+[2024-12-18T11:36:32,563][INFO ][o.e.n.Node               ] [node-1] stopped
+[2024-12-18T11:36:32,563][INFO ][o.e.n.Node               ] [node-1] closing ...
+[2024-12-18T11:36:32,569][INFO ][o.e.i.g.DatabaseReaderLazyLoader] [node-1] evicted [0] entries from cache after reloading database [/var/folders/sc/g31h4x0x4tg1ndt0f3_ld66m0000gn/T/elasticsearch-16744514729050013685/geoip-databases/ZkbmSpGcSKWV_Y3rOKMDig/GeoLite2-Country.mmdb]
+[2024-12-18T11:36:32,570][INFO ][o.e.i.g.DatabaseReaderLazyLoader] [node-1] evicted [0] entries from cache after reloading database [/var/folders/sc/g31h4x0x4tg1ndt0f3_ld66m0000gn/T/elasticsearch-16744514729050013685/geoip-databases/ZkbmSpGcSKWV_Y3rOKMDig/GeoLite2-ASN.mmdb]
+[2024-12-18T11:36:32,570][INFO ][o.e.i.g.DatabaseReaderLazyLoader] [node-1] evicted [0] entries from cache after reloading database [/var/folders/sc/g31h4x0x4tg1ndt0f3_ld66m0000gn/T/elasticsearch-16744514729050013685/geoip-databases/ZkbmSpGcSKWV_Y3rOKMDig/GeoLite2-City.mmdb]
+[2024-12-18T11:36:32,572][INFO ][o.e.n.Node               ] [node-1] closed
